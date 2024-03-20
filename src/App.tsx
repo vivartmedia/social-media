@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HomePageComponent from './component/HomePageComponent';
+import SocialMediaDashboard from './component/SocialMediaDashboard';
 
 function App() {
   return (
    <div>
-    <HomePageComponent/>
+    <SocialMediaDashboard/>
    </div>
   );
 }
