@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Front-end Style Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Layout
 
-## Available Scripts
+The designs were created to the following widths:
 
-In the project directory, you can run:
+- Mobile: 375px
+- Desktop: 1440px
 
-### `npm start`
+## Colors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Primary
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Lime Green: hsl(163, 72%, 41%)
+- Bright Red: hsl(356, 69%, 56%)
 
-### `npm test`
+- Facebook: hsl(208, 92%, 53%)
+- Twitter: hsl(203, 89%, 53%)
+- Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+- YouTube: hsl(348, 97%, 39%)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Dark Theme
 
-### `npm run build`
+- Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Light Theme
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Toggle: hsl(230, 22%, 74%)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Neutral
 
-### `npm run eject`
+#### Dark Theme
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Very Dark Blue (BG): hsl(230, 17%, 14%)
+- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
+- Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
+- Desaturated Blue (Text): hsl(228, 34%, 66%)
+- White (Text): hsl(0, 0%, 100%)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Light Theme
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Typography
 
-## Learn More
+### Body Copy
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Font size (Overview Card Headings): 14px
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
