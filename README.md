@@ -1,3 +1,17 @@
+
+// Your name: Ashur
+
+ // Date Revised: 03/22/2024
+
+ // Exercise or Lab name: Social Media Dashboard in React
+
+ // Brief Description of what you did: i build an app using react following a disign given and apply dark and ligh mode using tailwind/flowbite
+
+// Peer review: George
+
+
+
+
 # Front-end Style Guide
 
 ## Layout
