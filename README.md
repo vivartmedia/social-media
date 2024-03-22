@@ -7,7 +7,7 @@
 
  // Brief Description of what you did: i build an app using react following a disign given and apply dark and ligh mode using tailwind/flowbite
 
-// Peer review: George
+// Peer review: George - Your layout for the most part matches the design, but your mobile is off when it comes to the text outside the boxes. You also don't have any of the active states from the design. You have a functioning dark mode button, but on the mobile design you're missing the upper part of the background.
 
 
 
