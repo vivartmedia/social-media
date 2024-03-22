@@ -23,7 +23,6 @@ const SocialMediaDashboard: React.FC = () => {
             <p className="text-left text-gray-600 text-md font-bold dark:text-gray-400">Total Followers: 23,004</p>
           </div>
 
-          {/* Ensure the horizontal line and the toggle section are not affecting the alignment */}
           <div className="w-full md:w-auto border-t border-gray-600 mt-4 md:mt-0 md:border-t-0"></div> {/* Horizontal line for mobile */}
 
           <div className="flex justify-between items-center  mr-4 md:w-auto mt-4 md:mt-0">
@@ -41,9 +40,7 @@ const SocialMediaDashboard: React.FC = () => {
 
 
         <div className="md:grid md:grid-cols-4 md:gap-4 md:mt-8 flex flex-col items-center gap-4">
-          {/* Repeat this block for each social media card */}
           <div className="bg-green-50 dark:bg-gray-800 p-4 rounded-md flex flex-col  items-center text-center  w-80 h-72 relative overflow-hidden">
-            {/* Gradient Border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-blue-500"></div>
             <span className='flex items-center mt-6 absolute'>
               <img className='w-6 h-6 mr-2' src="./icon-facebook.svg" alt="facebook icon" />
@@ -54,7 +51,6 @@ const SocialMediaDashboard: React.FC = () => {
               <p className='text-sm text-gray-600 dark:text-gray-400'>F O L L O W E R S</p>
             </div>
 
-            {/* Bottom Section */}
             <div className="pb-2">
               <div className="flex justify-center items-center mb-4">
                 <span><img className='w-2 1 mr-2' src="./icon-up.svg" alt="Arrow up icon" /></span>
@@ -64,7 +60,6 @@ const SocialMediaDashboard: React.FC = () => {
           </div>
 
           <div className="bg-green-50 dark:bg-gray-800 p-4 rounded-md flex flex-col  items-center text-center w-80 h-72 relative overflow-hidden">
-            {/* Gradient Border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-blue-500"></div>
             <span className='flex items-center mt-6 absolute'>
               <img className='w-6 h-6 mr-2' src="./icon-twitter.svg" alt="facebook icon" />
@@ -75,7 +70,6 @@ const SocialMediaDashboard: React.FC = () => {
               <p className='text-sm text-gray-600 dark:text-gray-400'>F O L L O W E R S</p>
             </div>
 
-            {/* Bottom Section */}
             <div className="pb-2">
               <div className="flex justify-center items-center mb-4">
                 <span><img className='w-2 1 mr-2' src="./icon-up.svg" alt="Arrow up icon" /></span>
@@ -85,7 +79,6 @@ const SocialMediaDashboard: React.FC = () => {
           </div>
 
           <div className="bg-green-50 dark:bg-gray-800 p-4 rounded-md flex flex-col  items-center text-center w-80 h-72 relative overflow-hidden">
-            {/* Gradient Border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-300 to-pink-500"></div>
             <span className='flex items-center mt-6 absolute'>
               <img className='w-6 h-6 mr-2' src="./icon-instagram.svg" alt="facebook icon" />
@@ -96,7 +89,6 @@ const SocialMediaDashboard: React.FC = () => {
               <p className='text-sm text-gray-600 dark:text-gray-400'>F O L L O W E R S</p>
             </div>
 
-            {/* Bottom Section */}
             <div className="pb-2">
               <div className="flex justify-center items-center mb-4">
                 <span><img className='w-2 h-1 mr-2' src="./icon-up.svg" alt="Arrow up icon" /></span>
@@ -106,7 +98,6 @@ const SocialMediaDashboard: React.FC = () => {
           </div>
 
           <div className="bg-green-50 dark:bg-gray-800 p-4 rounded-md flex flex-col  items-center text-center w-80 h-72 relative overflow-hidden">
-            {/* Gradient Border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-red-700"></div>
             <span className='flex items-center mt-6 absolute'>
               <img className='w-6 h-6 mr-2' src="./icon-youtube.svg" alt="facebook icon" />
@@ -117,7 +108,6 @@ const SocialMediaDashboard: React.FC = () => {
               <p className='text-sm text-gray-600 dark:text-gray-400'>S U B S C R I B E R S</p>
             </div>
 
-            {/* Bottom Section */}
             <div className="pb-2">
               <div className="flex justify-center items-center mb-4">
                 <span><img className='w-2 h-1 mr-2' src="./icon-down.svg" alt="Arrow up icon" /></span>
@@ -133,7 +123,6 @@ const SocialMediaDashboard: React.FC = () => {
 
 
 
-          {/* End of social media card */}
         </div>
 
 
@@ -141,7 +130,6 @@ const SocialMediaDashboard: React.FC = () => {
 
 
         <div className="grid grid-cols-1 items-center md:grid-cols-4 gap-4 mt-8">
-          {/* Repeat this block for each smaller card */}
 
 
           <div className="bg-green-50 dark:bg-gray-800 px-10 py-7 rounded-md flex flex-col justify-between  items-center text-center w-80 h-40 relative overflow-hidden">
@@ -257,7 +245,6 @@ const SocialMediaDashboard: React.FC = () => {
           </div>
 
 
-          {/* End of smaller card */}
         </div>
       </div>
     </div>
