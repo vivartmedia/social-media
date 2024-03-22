@@ -138,16 +138,17 @@ const SocialMediaDashboard: React.FC = () => {
           {/* Repeat this block for each smaller card */}
 
           
-          <div className="bg-white dark:bg-gray-800 p-4 rounded-md flex flex-col  items-center text-center w-80 h-40 relative overflow-hidden">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded-md  items-center text-center w-80 h-40 relative overflow-hidden">
             <div className="flex justify-between">
-              <p>Page Views</p>
-              <span>[Icon]</span>
+              <h2 className="text-xs font-bold text-gray-500 dark:text-gray-300">Page Views</h2>
+                <img className='w-6 h-6 mr-2' src="./icon-facebook.svg" alt="facebook icon" />
             </div>
+
             <div className="flex justify-between items-end">
-              <p className="text-3xl font-bold">117</p>
-              <div className="flex items-center">
-                <span>[Arrow Icon]</span>
-                <span>303%</span>
+              <p className=" mb-2 text-3xl font-bold dark:text-white">117</p>
+              <div className="flex justify-center items-center mb-4">
+                <span><img className='w-2 1 mr-2' src="./icon-up.svg" alt="Arrow up icon" /></span>
+                <span className="text-xs font-bold text-emerald-500">12 Today</span>
               </div>
             </div>
           </div>
